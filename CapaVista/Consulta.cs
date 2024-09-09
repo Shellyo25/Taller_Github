@@ -13,8 +13,8 @@ namespace CapaVista
 {
     public partial class Consulta : Form
     {
-        String tabla = "empleados";
-        Controlador cn = new Controlador();
+        String taa = "empleados";
+        Controlador cn = new Conolador();
         public Consulta()
         {
             InitializeComponent();
@@ -51,10 +51,7 @@ namespace CapaVista
             
         }
 
-        private void Dgv_consulta_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-       
-        }
+        
 
         private void button3_Click(object sender, EventArgs e)
         {
