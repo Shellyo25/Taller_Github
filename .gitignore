@@ -47,6 +47,7 @@ Codigo/Componentes/Navegador/.vs
 *.userosscache
 *.sln.docstates
 
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -430,5 +431,24 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+CapaVistaERP.csproj.FileListAbsolute.txt
+ControllerLayer.csproj.FileListAbsolute.txt
+ModelLayer.csproj.FileListAbsolute.txt
+ViewLayer.csproj.FileListAbsolute.txt
 
 
+*.cache
+*.dll
+*.exe
+*.pdb
+/build/
+*.suo
+_ReSharper.*/
+*.sdf
+*.opensdf
+*.tlog
+*.log
+TestResult.xml
+*.VisualState.xml
+Version.cs
+Version.h
