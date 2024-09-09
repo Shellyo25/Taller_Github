@@ -36,7 +36,7 @@ namespace CapaVista
 
         }
 
-        private void btn_ingresar_Click(object sender, EventArgs e)//ingresar
+        private void btn_ingresar_Click(object sender, EventArgs e)
         {
             
         }
