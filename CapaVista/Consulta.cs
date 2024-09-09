@@ -36,7 +36,7 @@ namespace CapaVista
 
         }
 
-        private void btn_ingresar_Click(object sender, EventArgs e)
+        private void btn_ingresar_Click(object sender, EventArgs e)//ingresar
         {
             string codigotext = txt_codigo.Text;
             int codigo = Convert.ToInt32(codigotext);
