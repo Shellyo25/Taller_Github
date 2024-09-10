@@ -1,8 +1,8 @@
-﻿using System;
+﻿//using System;
 using System.Collections.Generic;
-using System.Linq;
+//using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+//using System.Threading.Tasks;
 using System.Data.Odbc;
 
 namespace CapaModelo
@@ -21,7 +21,7 @@ namespace CapaModelo
             }
             catch (OdbcException)
             {
-                Console.WriteLine(""); /// no conecto aóner ahi 
+                Console.WriteLine("No se conecto"); /// no conecto aóner ahi 
             }
             return conn;
         }
@@ -35,7 +35,7 @@ namespace CapaModelo
             }
             catch (OdbcException)
             {
-                Console.WriteLine("");// no conecto poner ahi 
+                Console.WriteLine("No se conecto");// no conecto poner ahi 
             }
         }
     }
