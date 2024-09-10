@@ -65,7 +65,7 @@ namespace CapaVista
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            actualizardatagridview();
         }
 
         private void Dgv_consulta_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -79,6 +79,4 @@ namespace CapaVista
             
         }
     }
-}
-
 }

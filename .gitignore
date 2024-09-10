@@ -436,6 +436,11 @@ ControllerLayer.csproj.FileListAbsolute.txt
 ModelLayer.csproj.FileListAbsolute.txt
 ViewLayer.csproj.FileListAbsolute.txt
 
+CapaVistaERP.csproj.FileListAbsolute.txt
+ControllerLayer.csproj.FileListAbsolute.txt
+ModelLayer.csproj.FileListAbsolute.txt
+ViewLayer.csproj.FileListAbsolute.txt
+
 
 *.cache
 *.dll
@@ -452,3 +457,4 @@ TestResult.xml
 *.VisualState.xml
 Version.cs
 Version.h
+
