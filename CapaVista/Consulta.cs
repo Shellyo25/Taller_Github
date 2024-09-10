@@ -38,12 +38,29 @@ namespace CapaVista
 
         private void btn_ingresar_Click(object sender, EventArgs e)
         {
-            
+            string codigotext = txt_codigo.Text;
+            int codigo = Convert.ToInt32(codigotext);
+            string nombre = txt_nombre.Text;
+            string puesto = txt_puesto.Text;
+            string departamento = txt_departamento.Text;
+            string estadotexto = txt_estado.Text;
+            int estado = Convert.ToInt32(estadotexto);
+
+            try
+            {
+                cn.saveEmpleado(codigo, nombre, puesto, departamento, estado);
+                MessageBox.Show("Registro Agregado correctamente :)");
+            }
+            catch
+            {
+                MessageBox.Show("Registro No ingresado");
+            }
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
