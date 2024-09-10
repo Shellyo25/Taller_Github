@@ -21,7 +21,7 @@ namespace CapaModelo
             }
             catch (OdbcException)
             {
-                Console.WriteLine(""); /// no conecto aóner ahi 
+                Console.WriteLine("No Conectó");
             }
             return conn;
         }
@@ -35,7 +35,7 @@ namespace CapaModelo
             }
             catch (OdbcException)
             {
-                Console.WriteLine("");// no conecto poner ahi 
+                Console.WriteLine("No Conectó");
             }
         }
     }
