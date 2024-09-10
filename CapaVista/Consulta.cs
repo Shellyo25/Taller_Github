@@ -63,5 +63,3 @@ namespace CapaVista
         }
     }
 }
-
-}
